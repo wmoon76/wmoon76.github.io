@@ -95,7 +95,7 @@ analytics:
 author:
   name             : "Moon"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am an technical support."
+  bio              : "technical support."
   location         : "Somewhere"
   email            :
   links:
