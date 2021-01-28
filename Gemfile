@@ -1,10 +1,9 @@
 source "https://rubygems.org"
 
-gem "json"
-gem "jekyll"
-gem "jekyll-sitemap"
-gem "jekyll-feed"
-gem "jekyll-paginate"
-gem "jekyll-gist"
+# use local theme gem for testing
+gem "minimal-mistakes-jekyll", path: "../"
+group :jekyll_plugins do
+  gem 'jekyll-algolia', '~> 1.0'
+end
 
-gem 'jekyll-include-cache' # 추가
+gem "wdm", "~> 0.1.0" if Gem.win_platform?
