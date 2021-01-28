@@ -95,8 +95,8 @@ analytics:
 author:
   name             : "Moon"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am an **amazing** person."
-  location         : "Somewhere"
+  bio              : "Just Do it..."
+  location         : "SomeWhere "
   email            :
   links:
     - label: "Email"
